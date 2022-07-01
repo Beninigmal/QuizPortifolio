@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.score {
+  text-align: center;
+  font-size: 32px;
+  background: #918561;
+  color: #fff;
+}
+
+.yellowScore {
+  color: yellow;
+}
+
+.greenScore {
+  color: green;
+}
+
+html {
+  scroll-behavior: smooth;
+}

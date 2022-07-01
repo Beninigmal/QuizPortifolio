@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>
+      Quiz JS | Você consegue acertar o que os métodos abaixos fazem?
+    </title>
+  </head>
+  <body>
+    <div class="intro py-3 bg-primary text-center">
+      <div class="container">
+        <h2 class="text-light display-3 my-4">Quiz JS</h2>
+      </div>
+    </div>
+
+    <div class="score d-none">
+      <h2 class="my-5 text-black">
+        <span></span>
+      </h2>
+    </div>
+
+    <div class="quiz py-4 bg-dark">
+      <div class="container">
+        <h2 class="my-5 text-white">
+          Você consegue acertar o que os métodos abaixos fazem?
+        </h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">1. O método Math.ceil():</p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="A" checked />
+                Cria um valor aleatório.
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="B" />
+                Arredonda um valor para baixo.
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="C" />
+                Arredonda um valor para cima.
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion1" value="D" />
+                Faz com que o valor tenha 2 digitos após a virgula.
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. Qual a maneira correta de se obter a referência da seguinte
+              tag: &lt;p class="paragraph"&gt;Esse é um paragrafo&lt;/p&gt;
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="A" checked />
+                const p = document.querySelector("p")
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="B" />
+                const p = document.querySelector(".paragraph")
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="C" />
+                const p = document.getElementbyClass("paragraph")
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion2" value="D" />
+                Todas as opções acima.
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. Qual o nome do evento que previne o comportamento padrão do
+              navegador em formulários:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="A" checked />
+                event.preventDefault
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="B" />
+                event.preventDefault()
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="C" />
+                event.prevent.default
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion3" value="D" />
+                event.prevent.default()
+              </label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. O que a REGEX /^[A-Za-z0-9]{7,}$/ faz:
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="A" checked />
+                Valida todos os caracteres alfanumericos minusculos que tenham no máximo 7 digitos.
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="B" />
+                Valida todos os caracteres alfanumericos maiusculos que tenham no máximo 7 digitos.
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="C"  />
+                Valida todos os caracteres alfanumericos maiusculos e minusculos que tenham no máximo 7 digitos.
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <label class="form-check-label">
+                <input type="radio" name="inputQuestion4" value="D" />
+                Valida todos os caracteres alfanumericos maiusculos e minusculos que tenham no minimo 7 digitos.
+              </label>
+            </div>
+          </div>
+        </div>
+
+          <div class="text-center">
+            <button class="btn bg-primary text-light">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
